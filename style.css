@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	/*color: #ffffff;*/
+	text-align: center;
+	margin-top: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: cursive;
+
+}
+
+#button {
+	margin: 20px 570px;
+	/*padding: 14px 16px;*/
+	border: none;
+	border-radius: 15px;
+	width: 110px;
+	height: 60px;
+	text-align: center;
+	background-color: #0040ff; 
+	text-decoration: none;
+	font-size: 16px;
+	box-shadow: 0 5px #999;
+	cursor: pointer;
+	/*display: inline-block;*/
+
+}
+
+#button:hover {
+	background-color:#0000ff; 
+}
+
+#button:active {
+	background-color: #0000ff;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
